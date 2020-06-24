@@ -1,0 +1,32 @@
+.root{
+	-fx-background-color:white;
+}
+.root2{
+	-fx-font-size: 18;
+	-fx-font-weight:bold;
+}
+Label{
+	-fx-text-fill:gray;
+}
+Button{
+	-fx-text-fill:gray;
+	-fx-background-color:white;
+}
+TextField{
+	-fx-background-color:gray;
+}
+TextField:focused{
+	-fx-background-color:white;
+}
+ComboBox{
+	-fx-background-color:gray;
+}
+ComboBox:focused{
+	-fx-background-color:white;
+}
+TableView{
+	-fx-background-color:gray;
+}
+TableView:pressed{
+	-fx-background-color:white;
+}
